@@ -62,7 +62,7 @@ function FetchImages() {
       >
     
         <NewImage>
-          {images.map(image => (
+          {images?.map(image => (
             <NewsFeed
               url={image.urls.thumb} key={image.id}
               user={image.user.id}
