@@ -24,7 +24,7 @@ function Navigation() {
   {
     temp?.map(users =>(
      <>
-        <h1>Infinte Scroll App</h1>
+      <Link className = "test-link" to="/home"> <h1>Infinte Scroll App</h1></Link>
       <Link className = "test-link" to="/profile"><img  className= "iconProfile" src={users.profile_image.medium} alt="userIcon" />  <p>{users.name}</p></Link>
      </>
     ))
