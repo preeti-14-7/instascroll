@@ -3,7 +3,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import FetchImages from "./FetchImages";
-
+import Navigation from "./Navigation";
 
 function Profile() {
 
@@ -27,7 +27,7 @@ function Profile() {
 
   return (
     <div className="profileIcon">
-
+       <Navigation />
       {user?.map(users => (
         <div key={users.id} className="mapUser">
           <div className="top">

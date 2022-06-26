@@ -13,10 +13,10 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navigation />
+       
         <Routes>
           <Route exact path="/home" element={<Home />} />
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/profile" element={<Profile/>} />
         </Routes>
       </div>
