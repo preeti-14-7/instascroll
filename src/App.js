@@ -15,7 +15,7 @@ export default function App() {
       <div className="App">
         <Navigation />
         <Routes>
-          <Route exact path="/insta-scroll" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Home />} />
           <Route path="/profile" element={<Profile/>} />
         </Routes>
